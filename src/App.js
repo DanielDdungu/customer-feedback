@@ -1,11 +1,13 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-
+//import Post from "./components/Post";
 import AboutPage from "./pages/AboutPage";
 import FeedbackData from "./data/FeedbackData";
 import FeedbackForm from "./components/FeedbackForm";
 import FeedbackList from "./components/FeedbackList";
+import AboutIconLink from "./components/AboutIconLink";
 import FeedbackStats from "./components/FeedbackStats";
 import Header from "./components/Header";
+
 import React from "react";
 import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
@@ -43,7 +45,9 @@ function App() {
             }
           ></Route>
           <Route path="/about" element={<AboutPage />} />
+          {/* <Route path="/post/*" element={<Post />} /> */}
         </Routes>
+        <AboutIconLink />
       </div>
     </Router>
   );
