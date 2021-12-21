@@ -7,7 +7,7 @@ function Card({ children, reverse }) {
   //CONDITIONAL STYLING OPTION TWO
   return (
     <div
-      className="card"
+      ClassName="card"
       style={{
         backgroundColor: reverse ? "rgba(0,0,0,0.4)" : "#fff",
         color: reverse ? "#fff" : "#000",
