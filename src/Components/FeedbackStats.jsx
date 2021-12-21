@@ -1,4 +1,4 @@
-pimport { useContext } from "react";
+import { useContext } from "react";
 import FeedbackContext from "../context/feedbackContext";
 
 function FeedbackStats() {
