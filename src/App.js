@@ -2,11 +2,11 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 //import Post from "./components/Post";
 import AboutPage from "./pages/AboutPage";
 
-import FeedbackList from "./components/FeedbackList";
-import FeedbackForm from "./components/FeedbackForm";
-import AboutIconLink from "./components/AboutIconLink";
-import FeedbackStats from "./components/FeedbackStats";
-import Header from "./components/Header";
+import FeedbackList from "./Components/FeedbackList";
+import FeedbackForm from "./Components/FeedbackForm";
+import AboutIconLink from "./Components/AboutIconLink";
+import FeedbackStats from "./Components/FeedbackStats";
+import Header from "./Components/Header";
 import { FeedbackProvider } from "./context/feedbackContext";
 
 import React from "react";
